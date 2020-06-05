@@ -1,0 +1,9 @@
+(do
+    (= x 3)
+    /* commento
+    multiplo */
+    (cond (> x  2)
+        (then (print 3))
+        (else (print 2))
+    )
+) // commento singolo

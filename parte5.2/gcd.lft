@@ -1,0 +1,15 @@
+(do
+  /* calcolo del Massimo Comun Divisore */
+  (read a)
+  (read b)
+
+  (while (<> a b)
+    (cond (> a b)
+      (= a (- a b))
+    (else
+      (= b (- b a))
+    ))
+  ) // salvo il risulato in a e b (poichè ottengo a == b)
+
+  (print a)
+)

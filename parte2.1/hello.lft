@@ -1,0 +1,24 @@
+55
+03
+
+a9
+bb
+
+< == > <= >= <>
+
+cond
+when
+then
+else
+while
+do
+seq
+print
+read
+
+|| && !
+
+(){}
+
+= + * - /
+;
